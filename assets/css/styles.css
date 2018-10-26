@@ -5,9 +5,12 @@ body {
   font-family: 'Lato', sans-serif;
   text-align: center;
   width: 100%;
+  position: relative;
 }
 
 #wrapper {
+  position: absolute;
+  top: 0;
   padding-top: 70px;
   width: 100%;
   height: 100%;
@@ -47,6 +50,10 @@ span.emoji:last-of-type {
 
 .text p:first-of-type {
   margin-bottom: 22px;
+}
+
+.text .bold {
+  font-weight: 900;
 }
 
 #divider {
