@@ -65,6 +65,14 @@ span.emoji:last-of-type {
   margin: 34px 0;
 }
 
+#supported-by a {
+  text-decoration: none;
+}
+
+#supported-by a:not(:last-of-type) {
+  margin-right: 14px;
+}
+
 #supported-by img {
   margin-top: 22px;
   width: 140px;
@@ -73,4 +81,11 @@ span.emoji:last-of-type {
 
 #contact {
   margin-top: 34px;
+}
+
+@media only screen and (max-width: 667px){
+  #supported-by img {
+    width: 90px;
+    height: 90px;
+  }
 }
