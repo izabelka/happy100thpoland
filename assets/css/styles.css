@@ -68,6 +68,8 @@ span.emoji:last-of-type {
 
 #rsvp img {
   margin-top: 22px;
+  height: 280px;
+  width: auto;
 }
 
 #divider {
@@ -110,5 +112,10 @@ span.emoji:last-of-type {
   #supported-by img#polish-hub {
     width: auto;
     height: 40px;
+  }
+
+  #rsvp img {
+    height: 160px;
+    width: auto;
   }
 }
