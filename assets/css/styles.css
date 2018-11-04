@@ -104,9 +104,14 @@ span.emoji:last-of-type {
 }
 
 @media only screen and (max-width: 667px){
+
+  #supported-by a:not(:last-of-type) {
+    margin-right: 8px;
+  }
+
   #supported-by img {
-    width: 90px;
-    height: 90px;
+    width: 68px;
+    height: 68px;
   }
 
   #supported-by img#polish-hub {
