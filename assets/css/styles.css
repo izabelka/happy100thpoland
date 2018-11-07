@@ -68,7 +68,7 @@ span.emoji:last-of-type {
 
 #rsvp img {
   margin-top: 22px;
-  height: 280px;
+  height: 500px;
   width: auto;
 }
 
@@ -103,6 +103,12 @@ span.emoji:last-of-type {
   height: 80px;
 }
 
+#supported-by img#pot {
+  margin-top: 22px;
+  width: auto;
+  height: 100px;
+}
+
 @media only screen and (max-width: 667px){
 
   #supported-by a:not(:last-of-type) {
@@ -119,8 +125,13 @@ span.emoji:last-of-type {
     height: 40px;
   }
 
+  #supported-by img#pot {
+    width: auto;
+    height: 70px;
+  }
+
   #rsvp img {
-    height: 160px;
+    height: 360px;
     width: auto;
   }
 }
