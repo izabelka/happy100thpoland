@@ -98,13 +98,16 @@ span.emoji:last-of-type {
 }
 
 #supported-by img#polish-hub {
-  margin-top: 22px;
   width: auto;
   height: 80px;
 }
 
 #supported-by img#pot {
-  margin-top: 22px;
+  width: auto;
+  height: 100px;
+}
+
+#supported-by img#consulate {
   width: auto;
   height: 100px;
 }
@@ -126,6 +129,11 @@ span.emoji:last-of-type {
   }
 
   #supported-by img#pot {
+    width: auto;
+    height: 70px;
+  }
+
+  #supported-by img#consulate {
     width: auto;
     height: 70px;
   }
