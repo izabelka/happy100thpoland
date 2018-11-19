@@ -38,6 +38,17 @@ span.emoji:last-of-type {
   margin-left: 10px;
 }
 
+.block {
+  display: block;
+}
+
+#divider-photos {
+  width: 60%;
+  height: 1px;
+  background-color: #000;
+  margin: 34px 20%;
+}
+
 #photos {
   padding: 0 34px;
 }
