@@ -38,9 +38,18 @@ span.emoji:last-of-type {
   margin-left: 10px;
 }
 
+#photos {
+  padding: 0 34px;
+}
+
 #photos p {
   margin-top: 68px;
+  margin-bottom: 34px;
   font-size: 1.5em;
+}
+
+#photos a {
+  font-size: 1.2em;
 }
 
 #photos img {
